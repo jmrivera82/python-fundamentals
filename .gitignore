@@ -1,0 +1,72 @@
+# ===== PYTHON =====
+# Bytecode compilado
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribución / empaquetado
+dist/
+build/
+*.egg-info/
+
+# Entornos virtuales (muy importante)
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ===== EDITORES / IDEs =====
+# Visual Studio Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# ===== SISTEMA OPERATIVO =====
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# ===== OTROS =====
+# Variables de entorno (pueden contener contraseñas)
+.env
+
+# Bases de datos locales
+*.db
+*.sqlite3
+
+# Archivos de log
+*.log
+
+# Notas personales que no quieres compartir
+notas_privadas/
+TODO_personal.md
+
+#------------------------------------------------------------------#
+#Aplicar si el .gitignore se creó despues y existen archivos que no se deberían subir
+
+#Ejemplo: olvidaste ignorar __pycache__/
+
+# 1. Agrégalo al .gitignore
+#echo "__pycache__/" >> .gitignore
+
+# 2. Remuévelo del tracking de Git (pero NO lo borres de tu disco)
+#git rm -r --cached __pycache__/
+
+# 3. Commitea el cambio
+#git add .gitignore
+#git commit -m "chore: remueve __pycache__ del repositorio"
