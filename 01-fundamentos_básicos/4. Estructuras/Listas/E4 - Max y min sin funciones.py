@@ -14,21 +14,21 @@ Mínimo: 12
 """
 
 lista=[23, 67, 12, 89, 45, 34, 91, 56]
+mayor=lista[0]
+menor=lista[0]
 
 print("++Lista Original++")
 print(lista)
 
-for i in lista:
-    for j in lista[:i+1:-1]: #recorro la lista de fin al comienzo sin incluir la primera posición
-        if i>j:
-            mayor=i
-        elif i<j:
-            menor=i
+for num in lista:
+    if num > mayor:
+        mayor=num
+
+    elif num < menor:
+        menor=num
 
 print(f'El número mayor es: {mayor}')
 print(f'El número menor es: {menor}')
 
-#print("++Lista ordenada++")
 
-#print(lista)
     
