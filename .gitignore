@@ -38,7 +38,23 @@ ENV/
 Thumbs.db
 desktop.ini
 
-# Linux
+# Linux DevOps
+
+# Logs que generes en prácticas
+*.log
+
+# Archivos temporales de scripts
+*.tmp
+temp/
+
+# Credenciales (MUY IMPORTANTE)
+.env
+credentials/
+*.key
+*.pem
+
+# Sistema
+.DS_Store
 *~
 
 # ===== OTROS =====
