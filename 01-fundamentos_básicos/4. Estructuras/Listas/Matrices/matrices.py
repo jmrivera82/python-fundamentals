@@ -1,3 +1,5 @@
+"""
+
 matriz = [[1, 2], [3, 4], [5, 6]]
 print(matriz[1][0]) #3
 
@@ -49,3 +51,52 @@ copia.append(5)
 print(len(original))
 print(len(copia))
 
+"""
+"""
+matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+# Iterar con for anidados
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        print(matriz[i][j], end=" ")
+    print() # Salto de línea
+
+
+# enumerating the items in an iterable
+prueba= [i for i in enumerate("abcdef")]
+
+print(prueba)
+"""
+#matriz, lista de listas
+
+matriz=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+    ]
+
+#recorrer por fila
+
+for fila in matriz:
+    for elemento in fila:
+        print(elemento, end=' ')
+    print() #Salto de linea 
+
+#recorrer por columna
+
+filas=len(matriz)
+columnas=len(matriz[0])
+
+#indice i es la fila
+#indice j es la columna
+
+for j in range(columnas):
+    for i in range(filas):
+        print(matriz[i][j], end=' ')
+    print()
+
+#para saber la posición
+
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        print(f"matriz[{i}][{j}] = {matriz[i][j]}")
