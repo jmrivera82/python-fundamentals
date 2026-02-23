@@ -1,0 +1,71 @@
+🎯 Plan de 7 días para dominar estructuras de datos
+Día 1-2: Listas
+
+Mañana (1h): Repasa la teoría y métodos en la guía
+Tarde (1h): Resuelve estos ejercicios en HackerRank:
+
+"Array Left Rotation"
+"2D Array - DS"
+"Dynamic Array"
+
+
+
+Día 3: Tuplas y Sets
+
+Tuplas (45min): Practica desempaquetado y uso como claves
+Sets (45min): Operaciones de conjuntos
+Ejercicio: Crear un programa que analice dos listas y encuentre: elementos comunes, únicos de cada una, y todos los elementos sin repetir
+
+Día 4-5: Diccionarios
+
+Día 4: Métodos básicos (get, keys, values, items)
+Día 5: Diccionarios anidados y comprensión de diccionarios
+Proyecto: Sistema de inventario con diccionarios
+
+Día 6: Comprensión de estructuras (List/Dict/Set Comprehension)
+python# List comprehension
+cuadrados = [x**2 for x in range(10)]
+
+# Dict comprehension
+cuadrados_dict = {x: x**2 for x in range(10)}
+
+# Set comprehension
+pares = {x for x in range(20) if x % 2 == 0}
+Día 7: Proyecto integrador
+Crea un analizador de texto que use todas las estructuras:
+
+Lista: almacenar palabras
+Set: palabras únicas
+Diccionario: frecuencia de palabras
+Tupla: palabras más comunes (top 5)
+
+
+💪 Ejercicios adicionales recomendados
+En HackerRank (Python track):
+
+"Lists" - todos los ejercicios
+"Tuples"
+"Sets" - symmetric difference, set operations
+"Collections" - Counter, defaultdict, OrderedDict
+
+En LeetCode (Easy):
+
+"Two Sum" (usa diccionarios)
+"Contains Duplicate" (usa sets)
+"Valid Anagram" (usa diccionarios/Counter)
+"Intersection of Two Arrays" (usa sets)
+
+Proyectos prácticos:
+
+Agenda de contactos: Diccionario con nombre como clave
+Sistema de votación: Cuenta votos con diccionarios
+Analizador de logs: Procesa archivos con todas las estructuras
+Juego de palabras: Busca anagramas usando sets y diccionarios
+
+
+🔥 Truco mental para recordar cuándo usar cada una:
+
+¿Necesitas orden Y modificar? → Lista []
+¿Necesitas orden PERO no modificar? → Tupla ()
+¿Necesitas buscar por "nombre/clave"? → Diccionario {k:v}
+¿Necesitas elementos únicos o matemática de conjuntos? → Set {}
