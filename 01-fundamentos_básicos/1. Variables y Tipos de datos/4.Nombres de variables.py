@@ -6,4 +6,8 @@
 # class = 50          # ❌ Inválido (palabra reservada)
 
 # Reescribe los inválidos con nombres correctos:
-
+nombre=10
+mi_variable=20
+variable=30
+constante=100
+clase=50

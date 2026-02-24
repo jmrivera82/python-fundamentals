@@ -6,3 +6,4 @@ apellido = "Pérez"
 ciudad = "Santiago"
 
 
+print(f"Hola, soy {nombre} {apellido} de {ciudad}")
