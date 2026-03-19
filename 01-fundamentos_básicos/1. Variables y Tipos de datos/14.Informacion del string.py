@@ -6,3 +6,4 @@ email = "usuario@ejemplo.com"
 # 3. Si termina en '.com'
 # 4. Posición del '@'
 
+print(len(email))
