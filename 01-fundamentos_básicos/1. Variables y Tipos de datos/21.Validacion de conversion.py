@@ -2,7 +2,16 @@
 # Intenta convertir a int
 # Si falla, muestra error
 
-entrada = input("Ingresa un número: ")
+#entrada = int(input("Ingresa un número: "))
+
+#print(int(entrada))
 
 #Probar try-except
+
+try:
+    entrada = int(input("Ingresa un número: "))
+    print(entrada)
+
+except  ValueError:
+    print("Debe ingresar un número")
 

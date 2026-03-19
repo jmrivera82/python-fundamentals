@@ -4,3 +4,8 @@
 # - Descripción
 # - Autor
 
+print(f"""
+Este es un mensaje
+con varias lineas
+para probar la triple comilla
+      """)

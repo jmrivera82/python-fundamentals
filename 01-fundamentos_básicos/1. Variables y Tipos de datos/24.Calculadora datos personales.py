@@ -29,10 +29,10 @@ Mayor de edad: Sí
 ==========================================
 """
 
-nombre=input("Ingrese su nombre")
-edad=int(input("Ingrese su edad"))
-altura=float(input("Ingrese su altura (en mts)"))
-peso=float(input("Ingrese su peso"))
+nombre=input("Ingrese su nombre: ")
+edad=int(input("Ingrese su edad: "))
+altura=float(input("Ingrese su altura (en mts): "))
+peso=float(input("Ingrese su peso: "))
 
 imc=float(peso/altura**2)
 
@@ -44,7 +44,7 @@ print(f"Edad: {edad}")
 print(f"Altura: {altura}")
 print(f"Peso: {peso}")
 print("------------------------------------------")
-print(f"IMC: {imc}")
-print(f"Año de nacimiento {2026-edad}")
-print(f"Mayor de edad: ")
+print(f"IMC: {round(imc,2)}")
+print(f"Año de nacimiento: {2026-edad}")
+print(f"Mayor de edad: {2026-edad<=2026-18}")
 print("==========================================")

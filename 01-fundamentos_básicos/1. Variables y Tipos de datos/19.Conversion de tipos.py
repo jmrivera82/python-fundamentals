@@ -3,3 +3,6 @@
 
 edad_str = input("Tu edad: ")
 
+edad_str=int(edad_str)
+
+print(f"Tu edad es: {edad_str + 5}")

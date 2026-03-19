@@ -8,3 +8,8 @@ b = 5
 # 4. ¿a es mayor o igual que 10?
 # 5. ¿b es menor que 3?
 
+print(a>b)
+print(a==b)
+print(a!=b)
+print(a>=10)
+print(b<3)

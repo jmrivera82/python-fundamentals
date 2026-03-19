@@ -4,3 +4,4 @@ numero2 = 20
 
 # Crea string: "10 y 20"
 
+print(str(numero1)+" y "+ str(numero2))
