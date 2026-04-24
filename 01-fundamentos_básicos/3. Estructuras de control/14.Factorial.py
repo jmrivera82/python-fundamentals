@@ -6,6 +6,10 @@ factorial = 1
 
 # ESCRIBE TU CÓDIGO AQUÍ:
 
+for i in range (numero,0,-1):
+    factorial= factorial * i
+
+
 
 print(f"{numero}! = {factorial}")
 
